@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import Button from '../components/ui/button';
+import Button from '../../components/ui/button';
 
 const meta = {
     title: 'Components/Button',
@@ -44,9 +44,3 @@ export const Large: Story = {
     },
 };
 
-export const Dds21312: Story = {
-    args: {
-        type: "primary",
-        children: "Primary Button2"
-    }
-};

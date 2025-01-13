@@ -28,5 +28,5 @@ export default preview;
 
 
 export const parameters = {
-  brandImage: './assets/fav_icon.png',
+  brandImage: './assets/logo.png',
 };

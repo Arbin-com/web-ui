@@ -52,18 +52,4 @@ export const Small: Story = {
   },
 };
 
-export const Helo: Story = {
-  args: {
-    primary: false,
-    label: "Button"
-  }
-};
 
-export const YeuNghe: Story = {
-  args: {
-    primary: true,
-    label: "yeu nghe",
-    size: "large",
-    backgroundColor: "#2f0515"
-  }
-};

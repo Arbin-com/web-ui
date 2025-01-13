@@ -1,13 +1,12 @@
 import { addons } from '@storybook/manager-api';
 import { create } from '@storybook/theming/create';
-// import logoImg from './assets/fav_icon.png'
 
 const theme = create({
     base: 'light',
 
     // Brand assets
     brandTitle: 'Arbin UI',
-    brandImage: 'fav_icon.png',
+    brandImage: 'logo.png',
     brandUrl: 'https://arbin.com/',
 
     // UI
