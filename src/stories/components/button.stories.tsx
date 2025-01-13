@@ -17,6 +17,14 @@ const meta = {
             control: 'select',
             options: ['large', 'middle', 'small'],
         },
+        color: {
+            control: 'select',
+            options: ["danger", "primary", "default", "blue", "cyan", "gold", "green", "lime", "magenta", "orange", "pink", "purple", "red", "yellow", "volcano", "geekblue"]
+        },
+        variant: {
+            control: 'select',
+            options: ["dashed", "link", "text", "outlined", "solid", "filled"]
+        }
     },
 } satisfies Meta<typeof Button>;
 
