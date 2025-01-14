@@ -2,9 +2,9 @@ import Button from "./components/ui/button"
 
 function App() {
   return (
-    <div className="h-screen w-screen flex-col flex items-center justify-center">
+    <div className="flex flex-col items-center justify-center w-screen h-screen">
       <Button type="default">
-        button
+        demo
       </Button>
     </div>
   )
