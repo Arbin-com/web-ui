@@ -38,10 +38,10 @@ export const Primary: Story = {
     },
 };
 
-export const Secondary: Story = {
+export const Default: Story = {
     args: {
         type: 'default',
-        children: 'Secondary Button',
+        children: 'Default Button',
     },
 };
 

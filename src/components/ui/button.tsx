@@ -13,7 +13,6 @@ const Button: React.FC<ButtonProps> = ({
   type = 'primary',
   size = 'middle',
   children,
-  className = '',
   ...props
 }) => {
   return (
@@ -21,7 +20,6 @@ const Button: React.FC<ButtonProps> = ({
       type={type}
       variant='solid'
       size={size}
-      className={`shadow-md hover:shadow-lg transition-shadow ${className}`}
       {...props}
     >
       {children}
