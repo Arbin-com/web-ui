@@ -1,7 +1,7 @@
 {
-  "name": "namduong-my-ui-cli",
-  "version": "1.0.6",
-  "description": "CLI tool for UI components",
+  "name": "arbin-ui",
+  "version": "1.0.0",
+  "description": "CLI tool for Arbin UI components",
   "main": "dist/bin/cli.js",
   "bin": {
     "my-ui": "./dist/bin/cli.js"
