@@ -19,6 +19,14 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Copy file to cli
+        run: npm run copy-cli
+
+      - name: Deploy to cli
+        run: npm run deploy-cli
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       - name: Build Storybook
         run: npm run build-storybook
 

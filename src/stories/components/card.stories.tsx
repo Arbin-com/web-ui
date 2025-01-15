@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import Button from "../../components/ui/button";
+import Card from "../../components/ui/card";
 
 const meta = {
-  title: "Components/Button",
-  component: Button,
+  title: "Components/Card",
+  component: Card,
   parameters: {
     layout: "centered",
   },
@@ -44,28 +44,13 @@ const meta = {
       options: ["dashed", "link", "text", "outlined", "solid", "filled"],
     },
   },
-} satisfies Meta<typeof Button>;
+} satisfies Meta<typeof Card>;
 
 export default meta;
-type Story = StoryObj<typeof Button>;
+type Story = StoryObj<typeof Card>;
 
-export const Primary: Story = {
-  args: {
-    type: "primary",
-    children: "Primary Button",
-  },
-};
+export const Primary: Story = {};
 
-export const Default: Story = {
-  args: {
-    type: "default",
-    children: "Default Button",
-  },
-};
+export const Default: Story = {};
 
-export const Large: Story = {
-  args: {
-    size: "large",
-    children: "Large Button",
-  },
-};
+export const Large: Story = {};
