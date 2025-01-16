@@ -1,6 +1,6 @@
 {
   "name": "arbin-ui",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "CLI tool for Arbin UI components",
   "main": "dist/bin/cli.js",
   "bin": {
@@ -15,7 +15,8 @@
     "prepublishOnly": "npm run build",
     "start": "node dist/bin/cli.js",
     "dev": "ts-node src/bin/cli.ts",
-    "index": "ts-node index.ts"
+    "upgrade-version": "ts-node src/lib/commands/upgrade-version.ts",
+    "index": "ts-node src/lib/commands/upgrade-version.ts"
   },
   "dependencies": {
     "chalk": "^4.1.2",
