@@ -1,6 +1,7 @@
 interface ComponentDeclare {
   name: string;
   dependencies: string[];
+  devDependencies?: string[];
   componentDependencies?: string[];
   files: {
     path: string;
@@ -12,7 +13,9 @@ interface ComponentDeclare {
 const COMPONENTS_DECLARE: Record<string, ComponentDeclare> = {
   config: {
     name: "config",
+    // dependencies: ["clsx", "tailwind-merge"],
     dependencies: [],
+    devDependencies: [],
     files: [
       {
         path: "tailwind.config.js",

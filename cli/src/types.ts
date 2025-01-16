@@ -13,6 +13,7 @@ export interface DependencyConfig {
 export interface ComponentConfig {
   name: string;
   dependencies: string[];
+  devDependencies?: string[];
   componentDependencies?: string[];
   files: {
     path: string;
