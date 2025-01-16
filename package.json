@@ -9,10 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "copy-cli": "npx tsx makeRegistry.ts",
-    "build-cli": "cd cli && npm install && tsc",
-    "version:patch": "cd cli && npm version patch",
+    "build-cli": "cd cli && npm install && npm run upgrade-version && tsc",
     "publish:cli": "cd cli && npm publish",
-    "deploy-cli": "npm run build-cli && npm run version:patch && npm run publish:cli",
+    "deploy-cli": "npm run build-cli && npm run publish:cli",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "deploy-storybook": "gh-pages -d storybook-static"
